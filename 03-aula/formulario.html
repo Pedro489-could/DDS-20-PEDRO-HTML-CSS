@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+  </head>
+  <body>
+    <h1>Formulário</h1>
+    <!-- form - agregar informações em formulario para tratar o envio -->
+    <form action="" meethod="">
+      <!-- Reserva uma área dp formulario para agrgar -->
+      <fieldset>
+        <!-- Titulo para  fieldes -->
+        <legend>Dados de login</legend>
+        <!-- Caixa de nome -->
+        <label for="caixa-nome">Nome</label>
+        <!-- input = tipo de interação com usuário -->
+        <!-- placeholder = texto reflexo -->
+        <!-- maxlength = limitador -->
+        <!-- minlength = minimo para cadastrar ou prencher -->
+        <input
+          type="text"
+          id="caixa-nome"
+          placeholder="Nome..."
+          maxlength="15"
+          minlength="3"
+        />
+        <br /><br />
+        <!-- Caixa de email  -->
+        <label for="email">Email</label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Digite seu email"
+        />
+        <br /><br />
+        <!-- Caixa de senha -->
+         <!-- password = esconder senha  -->
+        <label for="senha">Senha</label>
+        <input type="password"
+         name="senha" 
+         id="senha"
+          placeholder="Senha"
+           />
+          <br><br>
+          <!-- botão de enviar -->
+          <input type="submit"value="login">
+          <input type="reset" value="Resetar">
+      </fieldset>
+    </form>
+    <!-- Outros inputs tops -->
+    <h1>Outros inputs</h1>
+    <label for="data">Data de nascimento</label>
+    br
+    <input type="date" id="data">
+    br
+    <input type="datetime-local">
+    br
+    <input type="time">
+    <br><br>
+
+    <label>
+        Telefone
+    <input type="tel"
+     name="telefone" 
+     id="telefone"
+    placeholder="(00)00000-0000">
+    <br><br>
+    <label >
+        Textão
+    <textarea name="Textão"
+     id="Textão"
+      cols="30"
+       rows="5"
+       ></textarea>
+    </label>
+    <br><br>
+    <label>
+        cor
+        <input type="color" name="" id="">
+        </label>
+        <br><br>
+        <label >
+            Número
+            <input type="number" min="-10" max="50"value = "7" step="5">
+            </label>
+            <br><br>
+            <label >
+                Barrinha
+                0<input type="range"min="0" max="100"value = "30" step="20">100
+                </label>
+                <br><br>
+                <!-- caixa  de seleção -->
+                 <label for="">Escolha seu curso</label>
+                 <br>
+                 <!-- Tipo de bolinha -->
+                  <input type="radio" name="curso" value="corte">Corte ecostura
+                  <input type="radio" name="curso" value="Hackin">EticalHacking
+                  <input type="radio" name="curso" value="Desing">Desing deinteriores
+                  <br>
+                  <!-- Tipo caixinha -->
+                   <label for="">Redes sociais</label>
+                   <input type="checkbox" name="rede1" value="Zap zap">Zap zap
+                   <input type="checkbox" name="rede2" value="Face">Face
+                   <input type="checkbox" name="rede3" value="Orkut">Orkut
+                   <br><br>
+                   <!-- Caixz com varias opcoes -->
+                   <label for="">Cidade</label>
+                   <select name="" id="">
+                    <option value="Toquio">Tóquio</option>
+                    <option value="Los Angeles">Los Angeles</option>
+                    <option value="Doha">Dhoa</option>
+                    <optgroup name="Br" label="Brasil">
+                        <option value="Bra´silia" selected>Brasília</option>
+                         <option value="Rio de Janeior" >Rio de Janeior</option>
+                          <option value="São Paulo" >São Paulo</option>
+                    </optgroup>
+                   </select>
+
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+  </body>
+</html>
