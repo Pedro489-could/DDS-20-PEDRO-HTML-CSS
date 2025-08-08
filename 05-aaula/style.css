@@ -1,0 +1,32 @@
+/* Estiilização por tags */
+
+ul{
+    background-color: rgb(216, 216, 216);
+    list-style: none;
+    /* list-style-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Godzilla_%281954%29.jpg/1200px-Godzilla_%281954%29.jpg"); 
+    list-style:inside; */
+}
+li{
+    color: white;
+    font-size:30px;
+}
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+/* Estilização por id */
+#caixa-rosa{
+    background-color: pink;
+}
+#caixa-roxa{
+    background-color: blueviolet;
+
+}
+/* Estilização por class*/
+.caixinha{
+    background-color: white;
+    color: black;
+    margin:20px;
+    width: 200px;
+    height:75px;
+    display: inline-block;
+}
