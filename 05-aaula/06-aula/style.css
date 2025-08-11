@@ -1,0 +1,78 @@
+body{
+    background-color: azure;
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    background-color:gray ;
+    border: 1pc solid #ccc;
+    margin: 10px;
+    padding: 10px;
+    text-align:center ;
+}
+ul{
+    list-style: none;
+    padding: 0px;
+    margin: 0px
+}
+
+
+
+li{
+display: inline-block;
+margin-right: 20px;;
+}
+a{
+    color:firebrick;
+    text-decoration: none;
+    font-size: 20px;
+}
+a:hover{
+    color:white;
+    background-color: firebrick;
+}
+/*FIM DO HEDER*/
+/*iNICIO DO MAIN*/
+main{
+    background-color: rgb(2, 20, 185);
+    border: 1px solid black;
+    margin: 10px;
+    padding: 10 px ;
+    display:flex;
+}
+aside{
+     border: solid black;
+    margin:10 px;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    width: 20%  ;
+}
+#secao-maior{
+    border: solid black;
+    margin:10 px;
+    padding: 10px;
+    background-color: rgb(3, 75, 138); 
+    width: 80%;
+}
+article{
+    border: 1px  solid black;
+    background-color: rgb(16, 42, 190);
+    text-align: center;
+    color: ;
+    font-size: 20px;
+}
+#sub-secao{
+     border: 1px  solid black;
+    background-color:  rgb(16, 42, 190);
+    text-align: center;
+    color: ;
+    font-size: 20px;
+}
+/*fim do main*/
+footer{
+    background-color: rgb(255, 47, 47);
+    border: 1px solid rgb(0, 0, 0);
+    margin: 10px;
+    padding: 10 px ;
+    text-align: center;
+}
