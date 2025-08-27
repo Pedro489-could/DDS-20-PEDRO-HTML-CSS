@@ -1,0 +1,89 @@
+body{
+background-color: #2298e1;
+header{
+    position: sticky;
+    top: 0px;
+}
+#navegacao{
+    background-color: rgb(255, 255, 255) ;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgb(173, 173, 173);
+    padding: 15px;
+    font-size: 30px;
+    overflow: hidden;
+}
+#simbulo{
+    font-size: 60px;
+}
+#item-menu{
+    list-style: none;
+    float: right;
+    margin-top: 15px;
+}
+li{
+    display: inline-block;
+    padding: 10px;
+    margin-left: 15px;
+}   }
+#bloco{
+    background-color: rgb(136, 137, 139);
+    color: black;
+    height: 200px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: center;
+    line-height: 200px;
+}
+#linha-bloco{
+    background-color: rgb(145, 145, 145);
+    margin-top: 10px;
+    text-align: center;
+    color: black;
+    height: 200px;
+    width: 80%;
+     margin-left: auto;
+    margin-right: auto;
+    font-weight: bold;
+    padding: 10px;
+    
+    
+}
+.mine-bloco{
+    background-color: rgb(255, 255, 255);
+    width: 30%;
+    margin-top: 5px;
+    display: inline-block;
+    height: 200px;
+    line-height: 200px;
+}
+#linha{
+    background-color: greenyellow;
+    padding: 10px;
+    text-align: center;
+    margin-top: 10px;
+    color: white;
+    height: 200px;
+    line-height: 200px;
+}
+.mini-linha{
+    background-color: brown;
+    width: 50%;
+    height: 200px;
+    margin-top: 5px;
+    display: inline;
+}
+#flex{
+    background-color: purple;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin-top: 10px;
+}
