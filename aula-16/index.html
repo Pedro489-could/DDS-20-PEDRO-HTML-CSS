@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Olá, sou um título</h1>
+
+    <p>Algo aqui para dizer que tem</p>
+    <p class="para">Mais um texto tip ai</p>
+    <p class="para" id="p3">O farol da estrelas</p>
+
+    <h1>Star Wars 6 - O retorno do jedai</h1>
+    <h1>Acabou</h1>
+
+    <h2 onclick="console.log('Eu cliquei'); ">CLIQUE AQUI</h2>
+
+    <h2 onclick="cliquei()">AQUI NÃO PODE</h2>
+
+    <h1 onclick="Luke()">Liga o sabre</h1>
+
+    <h1 onclick="quemFoi(this)">Alo</h1>
+
+    <p onclick="quemFoi (this)">Fazendo também</p>
+
+    <br /><br />
+    <hr />
+
+    <h1>OUTRA ÁREA</h1>
+
+    Muda quando sai:
+    <!-- ONCHENGE  = PEGA QUANDO MUDA O FOCO -->
+    <input type="text" onchange="troca(this)" />
+    <h3 id="textoTrocar">TEXTO AQUI</h3>
+    <br /><br />
+
+    Muda quando digita:
+    <!-- ONIOUT = PEGA QUANDO HÁ ALTERAÇÕES NA CAIXINHA -->
+    <input type="text" oninput="trocaAgora(this)" />
+
+    <h3 id="textoTrocarAgora">TEXTO AQUI</h3>
+    
+    <h1 onmouseover="viraVerde(this) " onmouseover="viraAzul(this)">
+        OLHA ISSO AQUI
+    </h1>
+    <br><br><br><br><br>
+    <!-- <script src="script.js"></script> -->
+    <script src="interação.js"></script>
+  </body>
+</html>
